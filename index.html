@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Sidney</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            background: #0f172a;
+            color: #ffffff; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            width: 100%;
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            color: #ddd;
+            margin-top: 10px;
+        }
+
+        .card {
+            background-color: #ffffff; 
+            color: #1a1a1a;           
+            padding: 30px;
+            margin: 20px;
+            border-radius: 15px;      
+            width: 100%;
+            max-width: 500px;         
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;       
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .info-list {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .info-list p {
+            margin: 5px 0;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        
+        .btn-link { 
+            display: block;
+            color: #ffffff; 
+            background-color: #1a1a1a; 
+            text-decoration: none; 
+            font-weight: bold; 
+            padding: 12px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-link:hover { 
+            background-color: #2563eb; 
+            transform: translateY(-2px); 
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+            background: #020617;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sidney Campos</h1>
+        <p>Portfólio Pessoal</p>
+    </header>
+
+    <section class="card">
+        <h2>Informações Pessoais</h2>
+        <div class="info-list">
+            <p><strong>Nome:</strong> Sidney Campos</p>
+            <p><strong>Idade:</strong> 17 anos</p>
+            <p><strong>Cidade:</strong> São José dos Campos</p>
+            <p><strong>Escola:</strong> ETEC</p>
+            <p><strong>Área de interesse:</strong> Tecnologia</p>
+            <p><strong>Hobbies:</strong> HQs, filmes, séries e jogos</p>
+            <p><strong>Objetivo:</strong> Crescer na área de tecnologia e cursar uma faculdade</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Sobre Mim</h2>
+        <p>
+            Oi, meu nome é Sidney, tenho 17 anos e sou de São José dos Campos. 
+            Atualmente estudo na ETEC e sou apaixonado por tecnologia. 
+            Gosto bastante de coisas nerds, como HQs, filmes, séries e jogos. 
+            Adoro aprender coisas novas e estou sempre disponível para ajudar as pessoas.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Minha Jornada</h2>
+        <p>
+            Atualmente estou concluindo o ensino médio. 
+            Tenho vontade de cursar uma faculdade, mas acredito que o futuro ainda reserva muitas surpresas.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Minhas Atividades</h2>
+
+        <div class="links-container">
+            <a href="https://snack.expo.dev/@sidneycampos/cranky-indigo-bacon-ativ-1" class="btn-link" target="_blank">
+                Hard Skills e Soft Skills
+            </a>
+
+            <a href="https://snack.expo.dev/@sidneycampos/ativ-rogerio-2FlexDiretion" class="btn-link" target="_blank">
+                FlexDirection RPG
+            </a>
+
+            <a href="https://snack.expo.dev/@sidneycampos/ativ-filmes-" class="btn-link" target="_blank">
+                Lista de Filmes
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Sidney Campos</p>
+    </footer>
+
+    <script>
+        console.log("Site carregado com sucesso!");
+    </script>
+
+</body>
+</html>
